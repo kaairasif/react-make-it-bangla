@@ -7,8 +7,7 @@ class SingleView extends React.Component {
 	}
 
 	render() {
-		// console.log(this.props);
-		console.log("this.postData", this.postData);
+		// console.log("this.postData", this.postData);
         const post = this.postData[0]
 		return(			
         	<div className="portfolio single">
